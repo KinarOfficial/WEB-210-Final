@@ -1,5 +1,6 @@
 * {
   font-family: sans-serif;
+  box-sizing: border-box;
 }
 
 #container {
@@ -51,4 +52,49 @@ h1 {
     font-size: 3em;
     text-align: center;
     align-self: center;
+}
+
+            
+            
+p {
+  letter-spacing: .2vmin;
+}
+            
+body {
+    margin:0;
+    padding:0;
+    background-color: lightblue;
+}
+            
+main {
+    width: 70vmax;
+    min-height: 1000px;
+    background-color: white;
+    margin: 0 auto;
+    padding: 2vmin;
+    border-style: double;
+    border-radius: 100px;
+}
+
+ul {
+    font-size: 2vmin;
+    text-align: center;
+}
+            
+ul a:hover {
+    text-decoration: none;
+}
+            
+ul a:active {
+     text-decoration: none;
+}
+            
+li {
+    display: inline;
+    letter-spacing: 4px;
+}
+            
+footer {
+    padding:1em;
+    font-size: 1.5em;
 }
